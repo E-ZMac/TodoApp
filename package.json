@@ -1,0 +1,54 @@
+{
+  "name": "y",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "babel-jest": "^27.3.1",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-superjson-next": "^0.4.2",
+    "cypress": "^8.7.0",
+    "jest": "^27.3.1",
+    "next": "12.0.2",
+    "next-persist": "^1.2.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "react-toastify": "^8.0.3",
+    "styled-components": "^5.3.3",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.2.19",
+    "twin.macro": "^2.8.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.33",
+    "@types/styled-components": "^5.1.15",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.2",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "4.4.4"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components",
+      "config": "./tailwing.config.js"
+    }
+  }
+}
